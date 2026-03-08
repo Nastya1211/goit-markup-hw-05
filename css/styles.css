@@ -409,7 +409,11 @@ img {
 }
 
 .footer-container > div:nth-child(2) {
-  margin-right: 80px;
+  margin-right: 0;
+}
+
+.footer-container > div:last-child {
+  margin-left: auto;
 }
 
 .page-footer {

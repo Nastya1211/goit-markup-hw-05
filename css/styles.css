@@ -404,6 +404,11 @@ img {
   display: flex;
   gap: 120px;
 }
+
+.footer-container > div:last-child {
+  margin-left: auto;
+}
+
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -547,7 +552,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-250px);
+  transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
@@ -594,7 +599,7 @@ img {
 }
 
 .input-box {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-name {

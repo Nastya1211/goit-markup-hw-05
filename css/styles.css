@@ -402,7 +402,16 @@ img {
 .footer-container {
   align-items: baseline;
   display: flex;
-  justify-content: space-between;
+  gap: 120px;
+}
+
+.footer-container > div:last-child {
+  margin-left: auto;
+}
+
+.footer-container > div:first-child,
+.footer-container > div:nth-child(2) {
+  margin-right: 0;
 }
 
 .page-footer {

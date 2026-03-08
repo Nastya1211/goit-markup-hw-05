@@ -408,8 +408,12 @@ img {
   margin-right: 120px;
 }
 
+.footer-container > div:nth-child(2) {
+  margin-right: 80px;
+}
+
 .footer-container > div:last-child {
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .page-footer {
@@ -636,7 +640,7 @@ img {
 
 .btn-send {
   display: block;
-  margin: 0 auto 24px;
+  margin: 0 auto;
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -651,7 +655,6 @@ img {
   text-align: center;
   color: #fff;
   border: none;
-  margin-bottom: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
